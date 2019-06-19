@@ -1,0 +1,496 @@
+{
+  "uid" : "5736f1d77d76d36b",
+  "name" : "28A HaftalikKesifListesiAksiyonMenuFacebookilePaylas",
+  "historyId" : "da229a860d061b9204bf7bdcd0509586",
+  "time" : {
+    "start" : 1560908607208,
+    "stop" : 1560908773771,
+    "duration" : 166563
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş'] (tried for 15 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş'] (tried for 15 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:327)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:284)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:279)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findElement(MobileDevice.java:250)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.clickElement(MobileSteps.java:365)\n\tat steps.MySteps.saveSharingUrl(MySteps.java:1529)\n\tat ✽.I save sharing url as the current song name from facebook(src/test/resources/features/android/Share/Premium Package/Without Download Package/premiumPackagewithHome.feature:156)\nCaused by: org.openqa.selenium.NoSuchElementException: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş']\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:327)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:284)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:279)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findElement(MobileDevice.java:250)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.clickElement(MobileSteps.java:365)\n\tat steps.MySteps.saveSharingUrl(MySteps.java:1529)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş'] (tried for 15 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş'] (tried for 15 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:327)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:284)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:279)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findElement(MobileDevice.java:250)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.clickElement(MobileSteps.java:365)\n\tat steps.MySteps.saveSharingUrl(MySteps.java:1529)\n\tat ✽.I save sharing url as the current song name from facebook(src/test/resources/features/android/Share/Premium Package/Without Download Package/premiumPackagewithHome.feature:156)\nCaused by: org.openqa.selenium.NoSuchElementException: By.xpath: //android.widget.TextView[@text='PAYLAŞ' or @text='Paylaş']\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:327)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:284)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findSingleElement(MobileDevice.java:279)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.findElement(MobileDevice.java:250)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.clickElement(MobileSteps.java:365)\n\tat steps.MySteps.saveSharingUrl(MySteps.java:1529)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "steps" : [ {
+      "name" : "before",
+      "time" : {
+        "start" : 1560908607210,
+        "stop" : 1560908607219,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560908607220,
+        "stop" : 1560908607221,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560908607221,
+        "stop" : 1560908607224,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560908607225,
+        "stop" : 1560908607225,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  android device A",
+      "time" : {
+        "start" : 1560908607228,
+        "stop" : 1560908607230,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I start fizy application",
+      "time" : {
+        "start" : 1560908607231,
+        "stop" : 1560908619286,
+        "duration" : 12055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I log in as any premium user without download package",
+      "time" : {
+        "start" : 1560908619286,
+        "stop" : 1560908697219,
+        "duration" : 77933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  I see home page",
+      "time" : {
+        "start" : 1560908697220,
+        "stop" : 1560908697790,
+        "duration" : 570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I click weekly discover list",
+      "time" : {
+        "start" : 1560908697790,
+        "stop" : 1560908698025,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I see weekly discover list page",
+      "time" : {
+        "start" : 1560908698026,
+        "stop" : 1560908700303,
+        "duration" : 2277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I scroll up until first song",
+      "time" : {
+        "start" : 1560908700303,
+        "stop" : 1560908702386,
+        "duration" : 2083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I save first song text as the current first song",
+      "time" : {
+        "start" : 1560908702386,
+        "stop" : 1560908704759,
+        "duration" : 2373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I click first song options",
+      "time" : {
+        "start" : 1560908704759,
+        "stop" : 1560908707344,
+        "duration" : 2585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I see action menu page",
+      "time" : {
+        "start" : 1560908707344,
+        "stop" : 1560908708239,
+        "duration" : 895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click share",
+      "time" : {
+        "start" : 1560908708239,
+        "stop" : 1560908710278,
+        "duration" : 2039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click share by facebook",
+      "time" : {
+        "start" : 1560908710278,
+        "stop" : 1560908711073,
+        "duration" : 795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I wait for 5 seconds",
+      "time" : {
+        "start" : 1560908711073,
+        "stop" : 1560908716074,
+        "duration" : 5001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I save sharing url as the current song name from facebook",
+      "time" : {
+        "start" : 1560908716075,
+        "stop" : 1560908752000,
+        "duration" : 35925
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908752003,
+        "stop" : 1560908752003,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908752004,
+        "stop" : 1560908752006,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908752006,
+        "stop" : 1560908752905,
+        "duration" : 899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af69e46346ffd247",
+        "name" : "28A_HaftalikKesifListesiAksiyonMenuFacebookilePaylas",
+        "source" : "af69e46346ffd247.png",
+        "type" : "image/png",
+        "size" : 134642
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908752905,
+        "stop" : 1560908773298,
+        "duration" : 20393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908773298,
+        "stop" : 1560908773447,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908773448,
+        "stop" : 1560908773449,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908773449,
+        "stop" : 1560908773449,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908773449,
+        "stop" : 1560908773767,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560908773767,
+        "stop" : 1560908773770,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Home with Premium Package"
+  }, {
+    "name" : "story",
+    "value" : "28A HaftalikKesifListesiAksiyonMenuFacebookilePaylas"
+  }, {
+    "name" : "tag",
+    "value" : "android"
+  }, {
+    "name" : "tag",
+    "value" : "sharing"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "facebook"
+  }, {
+    "name" : "tag",
+    "value" : "rerun"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "package",
+    "value" : "Home with Premium Package"
+  }, {
+    "name" : "suite",
+    "value" : "Home with Premium Package"
+  }, {
+    "name" : "testClass",
+    "value" : "28A HaftalikKesifListesiAksiyonMenuFacebookilePaylas"
+  }, {
+    "name" : "thread",
+    "value" : "android/Share/Premium Package/Without Download Package/premiumPackagewithHome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "regression", "android", "facebook", "sharing", "rerun" ]
+  },
+  "source" : "5736f1d77d76d36b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,532 @@
+{
+  "uid" : "1e6ccb813a65effd",
+  "name" : "55M VideoListeleriListeyiGizliOlarakAyarla",
+  "historyId" : "456f50f7d2b5874430b643a964926f9a",
+  "time" : {
+    "start" : 1560911246410,
+    "stop" : 1560911320624,
+    "duration" : 74214
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat ✽.I log in as any premium user with download package(src/test/resources/features/android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicVideo.feature:7)\nCaused by: org.openqa.selenium.NoSuchElementException: By.id: com.turkcell.gncplay:id/dg_login_continue\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat ✽.I log in as any premium user with download package(src/test/resources/features/android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicVideo.feature:7)\nCaused by: org.openqa.selenium.NoSuchElementException: By.id: com.turkcell.gncplay:id/dg_login_continue\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "steps" : [ {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911246411,
+        "stop" : 1560911246413,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911246413,
+        "stop" : 1560911246413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911246413,
+        "stop" : 1560911246414,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911246414,
+        "stop" : 1560911246414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  android device A",
+      "time" : {
+        "start" : 1560911246414,
+        "stop" : 1560911246415,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I start fizy application",
+      "time" : {
+        "start" : 1560911246415,
+        "stop" : 1560911253655,
+        "duration" : 7240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I log in as any premium user with download package",
+      "time" : {
+        "start" : 1560911253655,
+        "stop" : 1560911298410,
+        "duration" : 44755
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I add any video to the list",
+      "time" : {
+        "start" : 1560911298410,
+        "stop" : 1560911298411,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I go to video lists",
+      "time" : {
+        "start" : 1560911298411,
+        "stop" : 1560911298411,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click \"{the list name}\"",
+      "time" : {
+        "start" : 1560911298411,
+        "stop" : 1560911298411,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I close popup if exist",
+      "time" : {
+        "start" : 1560911298411,
+        "stop" : 1560911298412,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see video list page",
+      "time" : {
+        "start" : 1560911298412,
+        "stop" : 1560911298412,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I tap three dot",
+      "time" : {
+        "start" : 1560911298412,
+        "stop" : 1560911298412,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see action menu page",
+      "time" : {
+        "start" : 1560911298412,
+        "stop" : 1560911298412,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I tap secret list",
+      "time" : {
+        "start" : 1560911298412,
+        "stop" : 1560911298412,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I wait for 10 seconds",
+      "time" : {
+        "start" : 1560911298413,
+        "stop" : 1560911298413,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see video list page",
+      "time" : {
+        "start" : 1560911298413,
+        "stop" : 1560911298413,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I tap three dot",
+      "time" : {
+        "start" : 1560911298413,
+        "stop" : 1560911298413,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see action menu page",
+      "time" : {
+        "start" : 1560911298413,
+        "stop" : 1560911298413,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I see open list element",
+      "time" : {
+        "start" : 1560911298414,
+        "stop" : 1560911298414,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911298414,
+        "stop" : 1560911298414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911298414,
+        "stop" : 1560911298414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911298415,
+        "stop" : 1560911299712,
+        "duration" : 1297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ee89cbb99416eb6",
+        "name" : "55M_VideoListeleriListeyiGizliOlarakAyarla",
+        "source" : "2ee89cbb99416eb6.png",
+        "type" : "image/png",
+        "size" : 715457
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911299712,
+        "stop" : 1560911320061,
+        "duration" : 20349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911320061,
+        "stop" : 1560911320186,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911320186,
+        "stop" : 1560911320186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911320186,
+        "stop" : 1560911320186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911320186,
+        "stop" : 1560911320624,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911320624,
+        "stop" : 1560911320624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 29,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "story",
+    "value" : "55M VideoListeleriListeyiGizliOlarakAyarla"
+  }, {
+    "name" : "tag",
+    "value" : "android"
+  }, {
+    "name" : "tag",
+    "value" : "myMusicFeature"
+  }, {
+    "name" : "tag",
+    "value" : "premiumUser"
+  }, {
+    "name" : "tag",
+    "value" : "downloadPackage"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "TDSS-1235"
+  }, {
+    "name" : "tag",
+    "value" : "rerun"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "package",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "suite",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "testClass",
+    "value" : "55M VideoListeleriListeyiGizliOlarakAyarla"
+  }, {
+    "name" : "thread",
+    "value" : "android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicVideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "premiumUser", "regression", "android", "TDSS-1235", "myMusicFeature", "rerun", "downloadPackage" ]
+  },
+  "source" : "1e6ccb813a65effd.json",
+  "parameterValues" : [ ]
+}

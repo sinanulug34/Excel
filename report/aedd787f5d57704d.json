@@ -1,0 +1,517 @@
+{
+  "uid" : "aedd787f5d57704d",
+  "name" : "69M AlbumlerimAlbümEkle",
+  "historyId" : "225fd3096830060d8425950369ba409a",
+  "time" : {
+    "start" : 1560911472066,
+    "stop" : 1560911546912,
+    "duration" : 74846
+  },
+  "status" : "failed",
+  "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat ✽.I log in as any premium user with download package(src/test/resources/features/android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicAlbum.feature:7)\nCaused by: org.openqa.selenium.NoSuchElementException: By.id: com.turkcell.gncplay:id/dg_login_continue\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: com.turkcell.gncplay:id/dg_login_continue (tried for 30 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat ✽.I log in as any premium user with download package(src/test/resources/features/android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicAlbum.feature:7)\nCaused by: org.openqa.selenium.NoSuchElementException: By.id: com.turkcell.gncplay:id/dg_login_continue\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'netas-HP-Compaq-Elite-8300-MT', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-51-generic', java.version: '1.8.0_191'\nDriver info: driver.version: unknown\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:343)\n\tat com.snapbytes.snaptest.mobile.MobileDevice$1.apply(MobileDevice.java:338)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.waitElement(MobileDevice.java:332)\n\tat com.snapbytes.snaptest.mobile.MobileDevice.loadPageConfig(MobileDevice.java:206)\n\tat com.snapbytes.snaptest.mobile.AndroidDevice.seePage(AndroidDevice.java:163)\n\tat com.snapbytes.snaptest.mobile.MobileSteps.seePage(MobileSteps.java:321)\n\tat steps.MySteps.loginUser(MySteps.java:1298)\n\tat sun.reflect.GeneratedMethodAccessor36.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat com.snapbytes.snaptest.testng.CustomTestNGCucumberRunner.runScenario(CustomTestNGCucumberRunner.java:80)\n\tat com.snapbytes.snaptest.testng.CucumberTestNG.Scenario(CucumberTestNG.java:82)\n\tat sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+    "steps" : [ {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911472067,
+        "stop" : 1560911472074,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911472074,
+        "stop" : 1560911472075,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911472075,
+        "stop" : 1560911472077,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "before",
+      "time" : {
+        "start" : 1560911472077,
+        "stop" : 1560911472077,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  android device A",
+      "time" : {
+        "start" : 1560911472078,
+        "stop" : 1560911472079,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I start fizy application",
+      "time" : {
+        "start" : 1560911472079,
+        "stop" : 1560911479330,
+        "duration" : 7251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I log in as any premium user with download package",
+      "time" : {
+        "start" : 1560911479330,
+        "stop" : 1560911524651,
+        "duration" : 45321
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given  I go to my album",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I remove all lists",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see my album page",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click new released albums",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see hot album list page",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I click first hot album",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524652,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see album page",
+      "time" : {
+        "start" : 1560911524652,
+        "stop" : 1560911524653,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  I save album name text as the added album name",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I click add to my albums",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I go to my album",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I see first album name contains \"{the added album name}\"",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I remove all lists",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524653,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911524653,
+        "stop" : 1560911524654,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911524654,
+        "stop" : 1560911525989,
+        "duration" : 1335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b23bbf715f62a49",
+        "name" : "69M_AlbumlerimAlbümEkle",
+        "source" : "3b23bbf715f62a49.png",
+        "type" : "image/png",
+        "size" : 676845
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911525990,
+        "stop" : 1560911546296,
+        "duration" : 20306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911546296,
+        "stop" : 1560911546423,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911546423,
+        "stop" : 1560911546424,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911546424,
+        "stop" : 1560911546424,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911546424,
+        "stop" : 1560911546911,
+        "duration" : 487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "after",
+      "time" : {
+        "start" : 1560911546911,
+        "stop" : 1560911546911,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "story",
+    "value" : "69M AlbumlerimAlbümEkle"
+  }, {
+    "name" : "tag",
+    "value" : "android"
+  }, {
+    "name" : "tag",
+    "value" : "myMusicFeature"
+  }, {
+    "name" : "tag",
+    "value" : "premiumUser"
+  }, {
+    "name" : "tag",
+    "value" : "downloadPackage"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "TDSS-1251"
+  }, {
+    "name" : "tag",
+    "value" : "rerun"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "package",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "suite",
+    "value" : "My Music with Premium and Download Package"
+  }, {
+    "name" : "testClass",
+    "value" : "69M AlbumlerimAlbümEkle"
+  }, {
+    "name" : "thread",
+    "value" : "android/Login with Password/Premium Package/With Download Package/premiumPackagewithMyMusic/premiumPackagewithMyMusicAlbum"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "premiumUser", "regression", "TDSS-1251", "android", "myMusicFeature", "rerun", "downloadPackage" ]
+  },
+  "source" : "aedd787f5d57704d.json",
+  "parameterValues" : [ ]
+}
