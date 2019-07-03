@@ -64,7 +64,7 @@ public class SuiteSummary {
     }
 
     public int getTotalCount() {
-        return this.nok + this.ok +this.skipped + this.notRun;
+        return this.nok + this.ok;
     }
 
 

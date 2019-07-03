@@ -46,7 +46,7 @@ public class ExcelService {
     public void createReport() {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd-HHmm");
-        String output = "FizyMiniRegresyon_" + now.format(formatter) + ".xlsx";
+        String output = "FizyMiniRegresyon" + now.format(formatter) + ".xlsx";
 
         try (FileInputStream file = new FileInputStream(new File(base + "base.xlsx"));
              Workbook workbook = WorkbookFactory.create(file);
@@ -147,8 +147,6 @@ public class ExcelService {
                 Cell caseCount = currentRow.getCell(1);
                 Cell caseNok = currentRow.getCell(2);
                 Cell caseOk = currentRow.getCell(3);
-                Cell caseSkipped = currentRow.getCell(4);
-                Cell caseNotRun = currentRow.getCell(5);
                 SuiteSummary summary = entries.getValue();
                 module.setCellValue(entries.getKey());
 
@@ -160,13 +158,6 @@ public class ExcelService {
 
                 caseOk.setCellValue(String.valueOf(summary.getOk()));
                 totalSum.setOk(totalSum.getOk() + summary.getOk());
-
-//				caseSkipped.setCellValue(String.valueOf(summary.getSkipped()));
-//				totalSum.setSkipped(totalSum.getSkipped() + summary.getSkipped());
-
-//				caseNotRun.setCellValue(String.valueOf(summary.getNotRun()));
-//				totalSum.setNotRun(totalSum.getNotRun() + summary.getNotRun());
-
                 index++;
             }
 
@@ -174,14 +165,10 @@ public class ExcelService {
             Cell caseCount = currentRow.getCell(1);
             Cell caseNok = currentRow.getCell(2);
             Cell caseOk = currentRow.getCell(3);
-            Cell caseSkipped = currentRow.getCell(4);
-            Cell caseNotRun = currentRow.getCell(5);
 
             caseCount.setCellValue(String.valueOf(totalCaseCount));
             caseNok.setCellValue(String.valueOf(totalSum.getNok()));
             caseOk.setCellValue(String.valueOf(totalSum.getOk()));
-            caseSkipped.setCellValue(String.valueOf(totalSum.getSkipped()));
-            caseNotRun.setCellValue(String.valueOf(totalSum.getNotRun()));
             workbook.write(outputStream);
 
         } catch (FileNotFoundException e) {

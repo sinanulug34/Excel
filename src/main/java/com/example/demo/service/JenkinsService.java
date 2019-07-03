@@ -41,10 +41,10 @@ public class JenkinsService {
 	public void loadReports() {
 		// http://10.254.46.80:8080/job/TDSS/job/BDD%20-%20Mobil%20-%20Fizy%20-%20DeviceFarm%20-%20Android%20-%20NonGuest%20-%20Regression/14/execution/node/3/ws/tools/allure-reports/data/test-cases/*zip*/test-cases.zip
 
-		String path = "http://10.254.46.80:8080/job/TDSS/job/BDD_Mobil_Fizy_DeviceFarm_Android_NonGuest_Regression_Rerun/19/execution/node/3/ws/tools/allure-reports/data/test-cases/*zip*/test-cases.zip";
+		String fizyPath = "http://10.254.46.80:8080/job/TDSS/job/BDD_Mobil_Fizy_DeviceFarm_Android_NonGuest_Regression_Rerun/19/execution/node/3/ws/tools/allure-reports/data/test-cases/*zip*/test-cases.zip";
 
-		System.err.println(path);
-		HttpGet request = new HttpGet(path);
+		System.err.println(fizyPath);
+		HttpGet request = new HttpGet(fizyPath);
 
 		try {
 			HttpResponse response = client.execute(request);

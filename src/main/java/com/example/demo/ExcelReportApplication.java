@@ -22,7 +22,7 @@ public class ExcelReportApplication {
 			jenkins.loadReports();
 			reader.read();
 			excelService.createReport();
-			//jenkins.cleanup();
+			jenkins.cleanup();
 		};
 	}
 	
