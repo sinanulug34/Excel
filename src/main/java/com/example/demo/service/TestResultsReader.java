@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import com.example.demo.domain.LoginType;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -17,7 +18,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component
 public class TestResultsReader {
-	
 	TestResultRepository repository;
 	ObjectMapper mapper;
 	
@@ -54,7 +54,10 @@ public class TestResultsReader {
 					.filter(s -> !s.getName().equalsIgnoreCase("after"))
 					.map(s -> s.getName()).collect(Collectors.joining("\r\n"));
 			test.setMergedSteps(mergedSteps);
-			repository.addTest(test.getScenarioId(), test);
+			test.setLoginType(LoginType.getTypeFromJson(mergedSteps));
+			String scenarioId = test.getScenarioId() + test.getLoginType();
+			scenarioId = scenarioId.replaceAll("\\s+","");
+			repository.addTest(scenarioId, test);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

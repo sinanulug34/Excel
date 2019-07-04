@@ -24,13 +24,13 @@ public class TestStage {
 		return steps;
 	}
 
-	public void setStes(List<Step> steps) {
+	public void setSteps(List<Step> steps) {
 		this.steps = steps;
 	}
 
 	@Override
 	public String toString() {
-		return "TestStage [status=" + status + ", stes=" + steps + "]";
+		return "TestStage [status=" + status + ", steps=" + steps + "]";
 	}
 
 }

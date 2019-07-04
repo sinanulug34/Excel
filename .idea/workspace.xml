@@ -2,14 +2,171 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf6f3de1-0888-418b-beb5-1ea3ef34c00f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/LoginType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/base.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel-report.iml" beforeDir="false" afterPath="$PROJECT_DIR$/excel-report.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/10deefe4eba2a54b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/14aaad8af07a6737.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/15aea104695eadc8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1707bfca7394fc7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1947a8e93cf63bcc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1a63d815bc400403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1b784468f5056b52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1c336ae0ecad626b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1d21196585096f40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1e6ccb813a65effd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1ec7f83e49172127.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1ee28b4d00051b8c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/213f42afc60d4510.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/21666a8dcc0ef0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2253d688279affb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/244183b1516f4348.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2a4136ff5e05d238.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2aff7be54759493d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2b08a268f6ff37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2cf2efdbcf889790.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2ec8f647ec7568cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3398d1c2b11e099a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/342ee40ade456cb3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3669902726ec6c78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/37860e676ba310f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3868620859042c38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/38938b9aad421596.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3b5d2f1d0e074bf2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3d50d9a890fedf9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3e663e52d4a3d4c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/401fcf12ec862154.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/43b58b43cdd273df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/47746b94796299c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/47b62338a7e31562.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/48b1ec5d907e5dd2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/48cc1e949e7db089.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/4c627bf6f945324c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/507eaf5462617afb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5223c0cc9aa7eaa0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/557f7466d3680edf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5734c0613595aa70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5736f1d77d76d36b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5775d3d260665ff2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/579bae11696bda89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/57a154e347933263.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/57c86b3e7ea040ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5828360fd0c10510.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/58c5390faf139f02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/59f5d73c19abf38e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5aab79c5faf69c72.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5afb999755fd7059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5c66cc1dd9d8ea50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/64a865e9a6c5a6cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/65e4d775dc2e58aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6a4f1270aac732ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6a80b5e876710c4f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6b266e1bcc80e058.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6f2730682152a17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6f2ac77164170f26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/707a0e0673072b89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7128f729334a2e91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7534848afe3a637f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/785a72d2f7695c47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/78e1f60d695e956f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7b2b18046a2d2ae5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7c4b98d83024bd4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7f0450fe2b120d20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7fd291128cf09df.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/80de894795c98a4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/840280d363160ff3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8440e382b947822b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/84e2c59b7f3523e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/888aa1b207d78eda.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/895f125eb1a25673.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8aa873e6d475fa5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8b1746d1240be5db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8bebfefada7d91fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8c2ae5c437f58bcc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/90410698bfc97e3c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/90ad1b2f074ebdb1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9108fa30d6e75a71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/914067e1547cdde8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/917728cc35b48ac7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/93559cf3fe62d5af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/94ff1b63851d44d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/950004f850064a25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/955c16618483d452.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/97ecd52910a2f669.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/97f56f91e68f9bf2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9dc631be05c430.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9e11e02efa14510f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9f6cb7f0082edae2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a23b13ea3053cb9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a23c6323793c2424.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a5c1ace3790a5f03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a7d13a4703c9fdc1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a7d669c3dadb31a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a8e8ac4093698f90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/aa00766f8408ec8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/aa68743c6761987f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ab1af6e6cd4c7ac3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/adb99bdbd830897f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/aedd787f5d57704d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b07ecadc74126b71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b5c843ad9de2b041.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b65cd3fd90e0b77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b821fb198a9a33a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b878b164a1d3f2c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/b967003ebce93088.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/bcf088b4fd241ae7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/bdf820dc07a50b12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/be47d33d9bdedbeb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/bffe5ce34f6dcf04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c0156aef9e4983da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c0c9fb20746fa064.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c2a2ebb934d519c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c31dbb9b28493344.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c53419f0e7aabb1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c53601eebe29435e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c7a1682135b2d201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c9b4a8e83a9105dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cb63794ff3b0aea5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cb93fcf0ebd2766b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cbe71093ec5542fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cd1810b81ac3a957.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cd473294d854c297.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ce623d523dff3b18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d0be5a901fe0737c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d26a36e4c888cde.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d67f75e6809f37ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d7aeb689e6cd6b9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d8ccac792d9eb3cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/dc4a6ff7dc9977d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/dd1a067d87f4d263.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/dde8a647de722950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/deeaf77a991f1e3a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e073bd3bb8add0a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e20a9844de443545.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e445029f6fac4085.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e4798050341794fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e532880657d659fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e5d04a51f5369490.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/e8b8a81fd4c2941f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/f7f0db69fd90c911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/f84112c63f8e9758.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/fa68e1de28756b88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/fb6f702b8964d76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ff4273061c746c92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ff9fc4bcca3ceb66.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestStage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/domain/SuiteSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/domain/SuiteSummary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/domain/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/domain/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/domain/TestStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/domain/TestStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/ExcelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/ExcelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/JenkinsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/JenkinsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/service/TestResultsReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/service/TestResultsReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$FizyMiniRegresyon_20190619-1131.xlsx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,30 +180,30 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+            <state relative-caret-position="413">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/LoginType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -54,31 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-              <folding>
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/Step.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="190">
+              <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -86,22 +220,62 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>allure-re</find>
+      <find>59S	AramaIcerikAramaSarkilarIlkSarkiKisitliIcerikliSarkiGizliDurumdaPremiumaGec</find>
+      <find>12AHaftalikKesifListesiAksiyonMenuArtiileListeyeEkleVazgec</find>
+      <find>HaftalikKesifListesiCihazimaIndirIndirmePaketivarsa</find>
+      <find>HaftalikKesifListesiCihazimaIndir</find>
+      <find>Premium</find>
+      <find>16A</find>
+      <find>scenarioId</find>
+      <find>152A&amp;153APopulerListelerTakipEt&amp;TakiptenCikarma</find>
+      <find>PREMİUM</find>
+      <find>TAGS</find>
+      <find>report/</find>
+      <find>setName</find>
+      <find>repository</find>
+      <find>10R</find>
+      <find>ar</find>
+      <find>1r</find>
+      <find>RadyoBannerDinle</find>
+      <find>HaftalikKesifListesi30SaniyeiconluSarkiOynatPremiumaGec</find>
+      <find>20A</find>
+      <find>38S</find>
+      <find>11MSarkiListeleriListeyiYenidenAdlandirPremiumWithDownload</find>
+      <find>11M</find>
+      <find>TestCase</find>
+      <find>152A&amp;153A</find>
+      <find>CHANGED</find>
+      <find>changed</find>
+      <find>EST TY</find>
+      <find>CHANGE</find>
+      <find>CAHN</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,26 +283,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestStage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/domain/LoginType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestCase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-182" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,12 +362,20 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,6 +389,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ExcelReportApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="excel-report" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ExcelReportApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ExcelReportApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -214,100 +419,169 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562136798500</updated>
+      <workItem from="1562117322243" duration="13064000" />
+      <workItem from="1562202814929" duration="3660000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16724000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-182" y="-1080" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Codota" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Flutter Inspector" order="9" />
+      <window_info anchor="right" id="Flutter Outline" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/report/ba10a8921218b027.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="667" column="38" selection-start-line="667" selection-start-column="31" selection-end-line="667" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!block;n#time#0;n#!!top" />
+            <element signature="n#!!block;n#testStage#0;n#!!top" />
+            <element signature="e#14428#14512#0" />
+            <element signature="e#14514#14595#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1112" column="17" selection-start-line="1112" selection-start-column="17" selection-end-line="1112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state relative-caret-position="264">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/Step.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/SuiteSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/1c2f96ebbfe9cf6.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8430">
+          <caret line="504" column="6" selection-start-line="504" selection-start-column="6" selection-end-line="504" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ExcelReportApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/TestResultsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/LoginType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/ExcelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="134" column="21" lean-forward="true" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/JenkinsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/domain/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="168">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
