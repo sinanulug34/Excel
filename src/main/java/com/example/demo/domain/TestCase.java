@@ -16,6 +16,7 @@ public class TestCase {
 
     private String mergedSteps;
 
+    private LoginType.Type loginType;
 
     public TestCase() {
         super();
@@ -36,7 +37,7 @@ public class TestCase {
     public void setName(String name) {
         this.scenarioId = name.split(" ")[0].trim();
         if (this.scenarioId.length() > 5) {
-            this.scenarioId = name.split("\\t")[0].trim();
+            this.scenarioId = scenarioId.split("\\t")[0].trim();
         }
         this.name = name;
     }
@@ -79,6 +80,14 @@ public class TestCase {
 
     public void setMergedSteps(String mergedSteps) {
         this.mergedSteps = mergedSteps;
+    }
+
+    public LoginType.Type getLoginType() {
+        return loginType;
+    }
+
+    public void setLoginType(LoginType.Type loginType) {
+        this.loginType = loginType;
     }
 
     @Override

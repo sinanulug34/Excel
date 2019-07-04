@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.example.demo.domain.LoginType;
 import org.apache.poi.ss.usermodel.BorderStyle;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
@@ -80,14 +81,14 @@ public class ExcelService {
                     if (counter == 0) // skip top row
                         continue;
 
+                    String pack = currentRow.getCell(0).getStringCellValue();
+                    String download = currentRow.getCell(1).getStringCellValue();
+
                     Cell scenarioCell = currentRow.getCell(3);
 
                     String scenarioIds = scenarioCell.getStringCellValue();
                     if (scenarioIds.trim().isEmpty()) // skip empty scenario id cells
                         continue;
-
-                    // scenarios may be combined with -
-                    String[] scenarios = scenarioIds.split("-");
 
                     // cells to be updated
                     Cell cellMergedSteps = currentRow.getCell(8);
@@ -103,31 +104,34 @@ public class ExcelService {
                     String result = "";
                     String step = "";
 
-                    for (String scenarioId : scenarios) {
-                        TestCase test = repository.getTest(scenarioId);
+                    // scenarios may be combined with -
+                    String[] scenarios = scenarioIds.split("-");
 
+                    for (String scenarioId : scenarios) {
+                        String id = scenarioId + LoginType.getTypeFromExcel(pack, download);
+                        TestCase test = repository.getTest(id);
                         SuiteSummary currentSummary = sheetSummary.getOrDefault(sheetName, new SuiteSummary());
                         if (test == null) {
-                            log.info("Test {} not found", scenarioId);
+                            log.info("Test {} not found. ", id);
+
                             sheetSummary.put(sheetName, currentSummary);
                             continue;
                         }
-                        if(test.getStatus().equalsIgnoreCase("passed")) {
-                            currentSummary.increateOk();
-                        } else if(test.getStatus().equalsIgnoreCase("failed")) {
-                            currentSummary.increateNok();
-                        } else if(test.getStatus().equalsIgnoreCase("skipped")) {
-                            currentSummary.increateSkipped();
-                        } else{
-                            currentSummary.increateNotRun();
-                        }
-                        sheetSummary.put(sheetName, currentSummary);
+                            if (test.getStatus().equalsIgnoreCase("passed")) {
+                                currentSummary.increateOk();
+                            } else if (test.getStatus().equalsIgnoreCase("failed")) {
+                                currentSummary.increateNok();
+                            } else if (test.getStatus().equalsIgnoreCase("skipped")) {
+                                currentSummary.increateSkipped();
+                            } else {
+                                currentSummary.increateNotRun();
+                            }
+                            sheetSummary.put(sheetName, currentSummary);
 
-                        mergedSteps += test.getMergedSteps() + "\r\n";
-                        result += test.getStatus() + "\r\n";
-                        if(test.getFailingStep() != null)
-                            step += test.getFailingStep() + "\r\n";
-
+                            mergedSteps += test.getMergedSteps() + "\r\n";
+                            result += test.getStatus() + "\r\n";
+                            if (test.getFailingStep() != null)
+                                step += test.getFailingStep() + "\r\n";
                     }
 
                     cellMergedSteps.setCellValue(mergedSteps);
@@ -140,7 +144,7 @@ public class ExcelService {
             int index = 1;
             SuiteSummary totalSum = new SuiteSummary();
             int totalCaseCount = 0;
-            for(Entry<String, SuiteSummary> entries: sheetSummary.entrySet()) {
+            for (Entry<String, SuiteSummary> entries : sheetSummary.entrySet()) {
                 System.err.println(entries.getKey());
                 Row currentRow = totalSheet.getRow(index);
                 Cell module = currentRow.getCell(0);
